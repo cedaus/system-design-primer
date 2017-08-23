@@ -20,11 +20,9 @@ A relational database like SQL is a collection of data items organized in tables
 * **Durability** - Once a transaction has been committed, it will remain so
 
 **Techniques to scale a relational database:** 
-* master-slave replication 
-* master-master replication
-* federation
-* sharding
-* denormalization
+* Replication: Master-Slave, Master-Master 
+* Partioning: Federation, Sharding
+* Denormalization
 * SQL tuning
 
 #### Master-slave replication
