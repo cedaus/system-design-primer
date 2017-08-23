@@ -317,4 +317,5 @@ Sample data well-suited for NoSQL:
 * Frequently accessed ('hot') tables
 * Metadata/lookup tables
 
-* [SQL vs NoSQL differences](https://www.sitepoint.com/sql-vs-nosql-differences/)
+##### Source(s) and further reading: SQL vs NoSQL
+- [ ] [SQL vs NoSQL differences](https://www.sitepoint.com/sql-vs-nosql-differences/)
