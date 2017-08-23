@@ -19,7 +19,13 @@ A relational database like SQL is a collection of data items organized in tables
 * **Isolation** - Executing transactions concurrently has the same results as if the transactions were executed serially
 * **Durability** - Once a transaction has been committed, it will remain so
 
-There are many techniques to scale a relational database: **master-slave replication**, **master-master replication**, **federation**, **sharding**, **denormalization**, and **SQL tuning**.
+**Techniques to scale a relational database:** 
+* master-slave replication 
+* master-master replication
+* federation
+* sharding
+* denormalization
+* SQL tuning
 
 #### Master-slave replication
 
