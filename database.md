@@ -103,6 +103,11 @@ Similar to the advantages of [federation](#federation), sharding results in less
 
 Common ways to shard a table of users is either through the user's last name initial or the user's geographic location.
 
+Type | Databases
+------------ | -------------
+Sharded | Cassandra, HBase, HDFS, and MongoDB
+Non-Sharded | Sqlite, Redis (spec in progress), Memcached, and Zookeeper
+
 ##### Disadvantage(s): sharding
 
 * You'll need to update your application logic to work with shards, which could result in complex SQL queries.
