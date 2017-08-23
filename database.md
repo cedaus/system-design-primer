@@ -1,11 +1,13 @@
 ## Database
 
+
 <p align="center">
   <img src="http://i.imgur.com/Xkm5CXz.png">
   <br/>
   <i><a href=https://www.youtube.com/watch?v=vg5onp8TU6Q>Source: Scaling up to your first 10 million users</a></i>
 </p>
 
+---
 ### Relational database management system (RDBMS)
 
 A relational database like SQL is a collection of data items organized in tables.
@@ -32,7 +34,6 @@ The master serves reads and writes, replicating writes to one or more slaves, wh
 ##### Disadvantage(s): master-slave replication
 
 * Additional logic is needed to promote a slave to a master.
-* See [Disadvantage(s): replication](#disadvantages-replication) for points related to **both** master-slave and master-master.
 
 #### Master-master replication
 
@@ -49,7 +50,6 @@ Both masters serve reads and writes and coordinate with each other on writes.  I
 * You'll need a load balancer or you'll need to make changes to your application logic to determine where to write.
 * Most master-master systems are either loosely consistent (violating ACID) or have increased write latency due to synchronization.
 * Conflict resolution comes more into play as more write nodes are added and as latency increases.
-* See [Disadvantage(s): replication](#disadvantages-replication) for points related to **both** master-slave and master-master.
 
 ##### Disadvantage(s): replication
 
@@ -61,8 +61,8 @@ Both masters serve reads and writes and coordinate with each other on writes.  I
 
 ##### Source(s) and further reading: replication
 
-* [Scalability, availability, stability, patterns](http://www.slideshare.net/jboner/scalability-availability-stability-patterns/)
-* [Multi-master replication](https://en.wikipedia.org/wiki/Multi-master_replication)
+- [ ] [Scalability, availability, stability, patterns](http://www.slideshare.net/jboner/scalability-availability-stability-patterns/)
+- [ ] [Multi-master replication](https://en.wikipedia.org/wiki/Multi-master_replication)
 
 #### Federation
 
@@ -83,7 +83,7 @@ Federation (or functional partitioning) splits up databases by function.  For ex
 
 ##### Source(s) and further reading: federation
 
-* [Scaling up to your first 10 million users](https://www.youtube.com/watch?v=vg5onp8TU6Q)
+- [ ] [Scaling up to your first 10 million users](https://www.youtube.com/watch?v=vg5onp8TU6Q)
 
 #### Sharding
 
