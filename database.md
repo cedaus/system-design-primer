@@ -116,6 +116,7 @@ Common ways to shard a table of users is either through the user's last name ini
 - [ ] [The coming of the shard](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
 - [ ] [Shard database architecture](https://en.wikipedia.org/wiki/Shard_(database_architecture))
 - [ ] [Consistent hashing](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)
+- [ ] [A Guide to Consistent Hashing](https://www.toptal.com/big-data/consistent-hashing)
 
 #### Denormalization
 
