@@ -8,6 +8,14 @@
 </p>
 
 ---
+### DATABASE Normalization
+Database Normalisation is a technique of organizing the data in the database. Normalization is a systematic approach of decomposing tables to eliminate data redundancy and undesirable characteristics like Insertion, Update and Deletion Anamolies. [Read More](http://www.studytonight.com/dbms/database-normalization.php)
+
+In general there are three normalization methods:
+* First Normal Form (1NF)
+* Second Normal Form (2NF)
+* Third Normal Form (3NF)
+
 ### Relational database management system (RDBMS)
 
 A relational database like SQL is a collection of data items organized in tables.
@@ -16,7 +24,8 @@ A relational database like SQL is a collection of data items organized in tables
 
 * **Atomicity** - Each transaction is all or nothing
 * **Consistency** - Any transaction will bring the database from one valid state to another
-* **Isolation** - Executing transactions concurrently has the same results as if the transactions were executed serially
+* **Isolation** - Executing transactions concurrently 
+has the same results as if the transactions were executed serially
 * **Durability** - Once a transaction has been committed, it will remain so
 
 **Techniques to scale a relational database:** 
