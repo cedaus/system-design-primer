@@ -338,3 +338,5 @@ Sample data well-suited for NoSQL:
 
 ##### Source(s) and further reading: SQL vs NoSQL
 - [ ] [SQL vs NoSQL differences](https://www.sitepoint.com/sql-vs-nosql-differences/)
+- [ ] [SQL vs. NoSQL Databases: What’s the Difference?](https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/)
+
