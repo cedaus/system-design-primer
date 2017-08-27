@@ -10,4 +10,4 @@
 - [ ] [Caching](https://github.com/cedaus/system-design-primer/blob/master/cach.md)
 - [ ] [Asynchronism](https://github.com/cedaus/system-design-primer/blob/master/async.md)
 - [ ] [Communication](https://github.com/cedaus/system-design-primer/blob/master/communitcation.md)
-- [ ] Security
+- [ ] [Security](https://github.com/cedaus/system-design-primer/blob/master/security.md)
